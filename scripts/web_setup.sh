@@ -8,12 +8,16 @@ apt-get -y upgrade
 
 # CTF-Platform Dependencies
 apt-get -y install python3-pip nginx mongodb gunicorn git libzmq-dev nodejs-legacy npm
-apt-get -y install ruby-dev dos2unix tmux jekyll phantomjs monit firefox xvfb
+apt-get -y install dos2unix tmux phantomjs monit firefox xvfb
 
-npm install -g coffee-script react-tools jsxhint coffee-react
+npm install -g gulp
 
 cd $ROOT
 ./install.sh
+
+#Temporary
+cd new_web
+npm install
 
 # Configure Environment
 echo "PATH=\$PATH:$ROOT/scripts" >> /etc/profile
