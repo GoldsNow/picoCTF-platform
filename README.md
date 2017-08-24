@@ -1,6 +1,8 @@
 picoCTF-platform
 ============================
 
+The latest code is at https://github.com/picoCTF/picoCTF. This repo is no longer maintained.
+
 The picoCTF-platform is the infrastructure which is used to run [picoCTF](https://picoctf.com/). The platform is designed to be easily adapted to other CTF or programming competitions.
 
 Additional documentation can be found on the [wiki](https://github.com/picoCTF/picoCTF-platform/wiki).
